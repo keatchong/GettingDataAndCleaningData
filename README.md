@@ -45,14 +45,31 @@ The script is a straight forward single file script which containing the codes t
 
 
 ```R
-# Read raw files into data frame
-features <- read.table("./features.txt", header = FALSE)
-…
+#Reads data files into dataframes
 
-# Constructing transitioning dataframe blocks 
-dat1 <- rbind(data1, data2) 
-dat2 <- rbind(data3, data4)
+# Get ready by constructing transitioning dataframes (building blocks)
 
+# Preprocessing of building blocks
+	# Extract variable labels from raw file
+
+	# Replace column names with valid labels
+
+	# Extracts only the measurements on mean and standard deviation
+
+# Combine building to form first draft of tidy data
+
+# Replace activities code with descriptive activity names
+
+# Discard objects deemed not needed anymore to free memory might help 
+when deal with very huge files on limited resource machine
+
+# rearrange data set before rename fields
+
+# Relabels the data set with descriptive variable names.
+
+# Average of each variable for each activity and each subject to create second data frame
+
+# output final data frame into text file
 
 ```
  
