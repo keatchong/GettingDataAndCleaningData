@@ -46,6 +46,8 @@ The script is a straight forward single file script which containing the codes t
 
 ```R
 
+# Begin
+
 # Reads data files into dataframes
 
 
@@ -82,6 +84,7 @@ The script is a straight forward single file script which containing the codes t
 
 # output final data frame into text file
 
+# End
 ```
  
 
