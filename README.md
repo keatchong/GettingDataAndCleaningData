@@ -61,7 +61,7 @@ The script is a straight forward single file script which containing the codes t
 # Replace activities code with descriptive activity names
 
 # Discard objects deemed not needed anymore to free memory might help 
-when deal with very huge files on limited resource machine
+# when deal with very huge files on limited resource machine
 
 # rearrange data set before rename fields
 
