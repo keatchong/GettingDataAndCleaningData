@@ -1,10 +1,12 @@
 # Objective 
 
-Purpose of the script is to process raw data from various files as shown in Input and produce tidy_data.txt (showing Average values of each variable for each activity and each subject) as output via the below sub-activities :  
-     - Merges the training and the test sets to create one data set.
-     - Extracts only the measurements on the mean and standard deviation for each measurement.
-     - Uses descriptive activity names to name the activities in the data set
-     -Appropriately labels the data set with descriptive variable names. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+Purpose of the script is to process raw data from various files as shown in Input and produce tidy_data.txt 
+Showing Average values of each variable for each activity and each subject) as output via the below sub-activities :  
++ Merges the training and the test sets to create single data set.
++ Extracts only the measurements on the mean and standard deviation for each measurement.
++ Rename the activities in the data set to use descriptive activity names
++ labels the data set with descriptive variable names. 
++ Creates a second,independent tidy data set with the average of each variable for each activity and each subject.
 
 # Input
 
@@ -30,9 +32,9 @@ Purpose of the script is to process raw data from various files as shown in Inpu
 
 # Execution Steps
 
-1. Unzip data package to your preferred directory ex: <home directory>
-2. Copy all files and folder from package to be directly under your R working folder
+1. Unzip data package to your preferred directory ex: `<your_home_directory>`
+2. Copy all files and folder from package to be directly under your R working folder ( as per `getwd()` )
 3. Copy this script  to your working folder
-4. source (“run_analysis.R”) to run
+4. source(`“run_analysis.R”`) to run
 
 
