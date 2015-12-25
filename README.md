@@ -41,18 +41,25 @@ Purpose of the script is to process raw data from various files as shown in **In
 # High Level View Of The Script
 The script is a straight forward single file script which containing the codes to carry out all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, It would be beneficial to have the high level pseudo code in mind.
 
-`
+
 
 
 ```R
+# Read raw files into data frame
 features <- read.table("./features.txt", header = FALSE)
-activity.labels <- read.table("./activity_labels.txt", header = FALSE)
+…
+
+# Constructing transitioning dataframe blocks 
+dat1 <- rbind(data1, data2) 
+dat2 <- rbind(data3, data4)
+
+
 ```
  
 
 
 
-`
+
   
 
 
