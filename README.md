@@ -35,6 +35,6 @@ Purpose of the script is to process raw data from various files as shown in **In
 1. Unzip data package to your preferred directory ex: `<your_home_directory>`
 2. Copy **all files and folder from package** to be **directly under** your R working folder ( as per `getwd()` )
 3. Copy this script  to your working folder
-4. `source(`“run_analysis.R”)` to run
+4. `source(“run_analysis.R”)` to run
 5. Check output tidy_data.txt at working directory (the file will be overwritten each time step 4 is run)
 
