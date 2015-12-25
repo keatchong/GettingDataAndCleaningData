@@ -39,35 +39,46 @@ Purpose of the script is to process raw data from various files as shown in **In
 5. Check output tidy_data.txt at working directory (the file will be overwritten each time step 4 is run)
 
 # High Level View Of The Script
-The script is a straight forward single file script which containing the codes to carry out all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, It would be beneficial to have the high level pseudo code in mind.
+The script is a straight forward single file script which containing the codes to carry out all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, It would be beneficial to have the high level structure in mind.
 
 
 
 
 ```R
-#Reads data files into dataframes
+
+# Reads data files into dataframes
+
 
 # Get ready by constructing transitioning dataframes (building blocks)
 
+
 # Preprocessing of building blocks
+
 	# Extract variable labels from raw file
 
 	# Replace column names with valid labels
 
 	# Extracts only the measurements on mean and standard deviation
 
+
 # Combine building to form first draft of tidy data
 
+
 # Replace activities code with descriptive activity names
+
 
 # Discard objects deemed not needed anymore to free memory might help 
 # when deal with very huge files on limited resource machine
 
+
 # rearrange data set before rename fields
+
 
 # Relabels the data set with descriptive variable names.
 
+
 # Average of each variable for each activity and each subject to create second data frame
+
 
 # output final data frame into text file
 
