@@ -38,9 +38,21 @@ Purpose of the script is to process raw data from various files as shown in **In
 4. `source(“run_analysis.R”)` to run
 5. Check output tidy_data.txt at working directory (the file will be overwritten each time step 4 is run)
 
-# High level view of the script
-The script is straight forward single file script which containing the codes to carry out 
-all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, you would be beneficial to have high pseudo code in mind
+# High Level View Of The Script
+The script is a straight forward single file script which containing the codes to carry out all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, It would be beneficial to have the high level pseudo code in mind.
+
+`
+
+
+```R
+features <- read.table("./features.txt", header = FALSE)
+activity.labels <- read.table("./activity_labels.txt", header = FALSE)
+```
+ 
+
+
+
+`
   
 
 
