@@ -38,3 +38,26 @@ Purpose of the script is to process raw data from various files as shown in **In
 4. `source(“run_analysis.R”)` to run
 5. Check output tidy_data.txt at working directory (the file will be overwritten each time step 4 is run)
 
+# Walk through Of Code
+## The script is straight forward single file script which containing the codes to carry out 
+## all the needed steps with no other embedded functions.
+## While the script is commented appropriately at right place to aid understanding, you could read 
+## the code with below high level subsection in mind
+  
+
+### Reads data files into dataframes
+### Constructing transitioning dataframes 
+### Extract variable labels from features dataframe
+### Replace column names of dat3 with valid labels   
+### Extracts from dat3 only the measurements on mean and standard deviation 
+### column combine dat1,dat2,dat3 to form first draft of tidy data
+### Replace activities code with descriptive activity names from activity.labels 
+### Discard objects deemed not needed anymore at this stage to free up memory
+### rearrange tidy.data before rename fields
+### Relabels the data set with descriptive variable names. 
+### Average of each variable for each activity and each subject to create 
+### second data frame 
+### output final data frame into text file
+
+
+
