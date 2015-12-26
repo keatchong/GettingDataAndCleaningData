@@ -56,16 +56,26 @@ For the purpose of carrying out analysis stated in introduction and produce the 
 by the accompanying R script :
  
 * features.txt, activity_labels.txt, subject_test.txt, subject_train.txt, X_test.txt, X_train.txt, y_test.txt, y_train.txt are read into R enrionment. (Other files are not required for the purpose of this analysis)
-* Merge the given training and the test data sets into a single data set for later processing.
-    Extract only the measurements on the mean and standard deviation for each measurement.
-    Replace the activities code in the data set to use descriptive activity names
-    Relabel the data set with descriptive variable names. 
-* Create a second,independent tidy data set to show the average value of each variable for each activity and each subject.
-* Output second data set to file
-
+* Constructing final dataset building blocks
+	* row binding subject_test and subject train data as block 1
+	* row binding y_test and y_train as block 2
+	* row binding x_test and X_train as block 3
+* Replacing generic labels for block 3 using variable labels extract from features
+* Select from block 3, only the measurements on mean and standard deviation (based on field name patterns mean() and std())
+* Rename labels of block 1, block 2 with “Subject” and “Activity” 
+* Combining block 1, block 2 and block 3 to form first draft of the data set
+* Join the data set with activity_labels to obtain the description of activities
+* Remove activity field from data set
+* Re-arrange dataset fields follow sequence Subject, Activity and 66 mean and standard deviation measurements 
+* Relabel the data set with descriptive variable names. 
+* Group the data set with Subject and Activity fields  
+* Summarise data set by apply mean function on mean and standard deviation measurements  
+* Output second data set to file tidy_data.txt
 
 # Dataset Description
+This dataset consists of a single tab-delimited file with each row represents 66 fields of values of average of mean, standard deviation for acceleration and angular movements variables summarised to subject and activity level. 
+
 
 # List Of Variables
-
+???
 
