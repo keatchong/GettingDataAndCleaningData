@@ -80,7 +80,7 @@ This dataset consists of a single space-delimited file represents observations c
 
 
 Version| Date | Comments
-* --- * | --- | ---
+--- | --- | ---
 1	|”Subject”|                     	
 2	|”Activity”|                    	
 3	|“Mean of X-axis Body Accelaration (Time Domain)|
