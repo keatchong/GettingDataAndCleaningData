@@ -43,11 +43,11 @@ The script is single file script which containing the codes to carry out all the
 
 
 
+```
 
+. LOAD needed libraries
 
-+ **LOAD** needed libraries
-
-+ **READ** raw data files into memory
+. READ raw data files into memory
 
 + Get ready by constructing transitioning dataframes (building blocks)
 
@@ -83,7 +83,8 @@ The script is single file script which containing the codes to carry out all the
 # output final data frame into text file
 
 # End
-`
+
+```
  
 
 
