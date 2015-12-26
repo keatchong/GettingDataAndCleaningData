@@ -2,7 +2,7 @@
 # File Name            :  run_analysis.R
 # Author               :  Keat Min Chong
 # Creation Date        :  12-20-2015
-# Date Last Updated    :  12-25-2015     
+# Date Last Updated    :  12-26-2015     
 # Detail Information   :  README.md 
 #
 # ============================================================================ #
@@ -142,3 +142,5 @@ remove(group) # discard group object
 
 # output final data frame into text file
 write.table(tidy.data.summary, file="tidy_data.txt", row.names=FALSE)
+
+
