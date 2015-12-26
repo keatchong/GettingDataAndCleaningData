@@ -1,12 +1,12 @@
 # Objective 
 
 Purpose of run_analysis.R is to process raw data from various files as shown in **Input** and produce an output file via the below sub-steps:  
-+ Merge the given training and the test data sets into a single data set for later processing.
++ Merge the given training and the test data sets into a single dataset for later processing.
 + Extract only the measurements on the mean and standard deviation for each measurement.
 + Replace the activities code in the data set to use descriptive activity names
 + Relabel the data set with descriptive variable names. 
 + Create a second,independent tidy data set to show the average value of each variable for each activity and each subject.
-+ Output second data set to file
++ Output second dataset to file
 
 # Input
 
