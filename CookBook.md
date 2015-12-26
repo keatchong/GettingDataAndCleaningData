@@ -4,8 +4,8 @@ December 25,2015
 
 # Revision History
 
-| Version        | Date         | Commets  |
-| ------------- |:-------------:| -----:|
+| Version        | Date         | Comments  |
+|:——————: |:-------------:| :——:|
 | 1.0     | 12/25/2015 | First Version Of Document |
 |       |       |    |
 |  |       |    |
