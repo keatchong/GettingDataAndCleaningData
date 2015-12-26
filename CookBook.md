@@ -82,16 +82,10 @@ The following variables are included in the text file.
 
 Variable#| Variable Name | Variable Definition
 --- | --- | ---
-1	|”Subject”|                     	
-2	|”Activity”|                    	
-3	|“Mean of X-axis Body Accelaration (Time Domain)|
-4	|“Mean of Y-axis Body Accelaration (Time Domain)”|	
-5	|“Mean of Z-axis Body Accelaration (Time Domain)”|	
-6	|“Standard Deviation of X-axis Body Accelaration (Time Domain)”|
-7	|“Standard Deviation of Y-axis Body Accelaration (Time Domain)”|	
-8	|“Standard Deviation of Z-axis Body Accelaration (Time Domain)”|	
-9	|“Mean of X-axis Gravity Accelaration (Time Domain)”|	
-10	|“Mean of Y-axis Gravity Accelaration (Time Domain)”|	
-11	|“Mean of Z-axis Gravity Accelaration (Time Domain)”|	
-
+1|Subject|This is the ID to identify the person who conduct the experiments
+2|Activity|Activity performed by subject
+3|tMeanOfBodyAcceleration(X-axis)|Mean of body acceleration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
+4|tMeanOfBodyAcceleration(Y-axis)|Mean of body acceleration at Y-Axis (Time Domain) – measured in standard gravity unit 'g'
+5|tMeanOfBodyAcceleration(Z-axis)	|Mean of body acceleration at Z-Axis (Time Domain) – measured in standard gravity unit 'g'
+6|tStandardDeviationOfBodyAcceleration(X-axis)|Standard Deviation of body acceleration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
 
