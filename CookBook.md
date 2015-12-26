@@ -73,9 +73,23 @@ by the accompanying R script :
 * Output second data set to file tidy_data.txt
 
 # Dataset Description
-This dataset consists of a single tab-delimited file with each row represents 66 fields of values of average of mean, standard deviation for acceleration and angular movements variables summarised to subject and activity level. 
+This dataset consists of a single space-delimited file represents observations consisting of study participants, activities performed during the study, and a computed average for each of the 66 measurement variables.
 
 
 # List Of Variables
-???
+
+Variable#|Variable Name|Variable Definition
+_______	|_____________ |___________________	
+1	|”Subject”|                     	
+	|”Activity”|                    	
+	|“Mean of X-axis Body Accelaration (Time Domain)|
+	|“Mean of Y-axis Body Accelaration (Time Domain)”|	
+	|“Mean of Z-axis Body Accelaration (Time Domain)”|	
+	|“Standard Deviation of X-axis Body Accelaration (Time Domain)”|
+	|“Standard Deviation of Y-axis Body Accelaration (Time Domain)”|	
+	|“Standard Deviation of Z-axis Body Accelaration (Time Domain)”|	
+	|“Mean of X-axis Gravity Accelaration (Time Domain)”|	
+	|“Mean of Y-axis Gravity Accelaration (Time Domain)”|	
+	|“Mean of Z-axis Gravity Accelaration (Time Domain)”|	
+
 
