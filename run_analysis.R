@@ -1,8 +1,8 @@
 # ============================================================================ #
 # File Name            :  run_analysis.R
 # Author               :  Keat Min Chong
-# Creation Date        :  Dec,20th,2015
-# Date Last Updated    :  Dec,25th,2015     
+# Creation Date        :  12-20-2015
+# Date Last Updated    :  12-25-2015     
 # Detail Information   :  README.md 
 #
 # ============================================================================ #
@@ -35,16 +35,16 @@ valid.variable.labels <- make.names(variable.labels[2,],
 colnames(dat3)  <- valid.variable.labels
 
 # Extracts from dat3 only the measurements on mean and standard deviation 
-dat3 <- dat3[grepl("\\.std\\.\\.|\\.mean\\.\\.",valid.variable.labels)]
+dat3 <- dat3[grepl("\\.std\\.\\.|\\.mean\\.\\.", valid.variable.labels)]
         
 # column combine dat1,dat2,dat3 to form first draft of tidy data
-tidy.data <- cbind(dat1,dat2)
-colnames(tidy.data) <- c("Subject","ActivityCode") #  ensure colname uniqueness 
-tidy.data <- cbind(tidy.data,dat3) # fist draft formed
+tidy.data <- cbind(dat1, dat2)
+colnames(tidy.data) <- c("Subject", "ActivityCode") #  ensure colname uniqueness 
+tidy.data <- cbind(tidy.data, dat3) # fist draft formed
  
 # Replace activities code with descriptive activity names from activity.labels 
 tidy.data <- join(tidy.data,activity.labels, by="ActivityCode")
-tidy.data <- select(tidy.data,-(ActivityCode))
+tidy.data <- select(tidy.data, -(ActivityCode))
 
 # Discard objects deemed not needed anymore at this stage to free up memory
 remove(features) 
@@ -62,10 +62,10 @@ remove(valid.variable.labels)
 remove(variable.labels)
 
 # rearrange tidy.data before rename fields
-tidy.data <- select(tidy.data,Subject,Activity,everything())
+tidy.data <- select(tidy.data, Subject, Activity, everything())
 
 # Relabels the data set with descriptive variable names. 
-colnames(tidy.data) <- c("Subject","Activity",                    
+colnames(tidy.data) <- c("Subject", "Activity",                    
         "Mean of X-axis Body Accelaration (Time Domain)",
         "Mean of Y-axis Body Accelaration (Time Domain)",
         "Mean of Z-axis Body Accelaration (Time Domain)",
@@ -136,8 +136,8 @@ colnames(tidy.data) <- c("Subject","Activity",
 
 # Average of each variable for each activity and each subject to create 
 # second data frame 
-group <- group_by(tidy.data,Subject,Activity)
-tidy.data.summary <- summarise_each(group,funs(mean))
+group <- group_by(tidy.data, Subject, Activity)
+tidy.data.summary <- summarise_each(group, funs(mean))
 remove(group) # discard group object
 
 # output final data frame into text file
