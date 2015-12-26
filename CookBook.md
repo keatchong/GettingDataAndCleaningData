@@ -1,12 +1,12 @@
 # Research Dictionary For Human Activity Recognition Using Smartphones Dataset
 Version 1.0
-December 25,2015
+December 26,2015
 
 # Revision History
 
 Version| Date | Comments
 --- | --- | ---
-1.0 | 25/12/2015 | First Version Of Document
+1.0 | 26/12/2015 | First Version Of Document
 
 # Introduction
 
