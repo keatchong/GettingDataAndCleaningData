@@ -88,4 +88,6 @@ Variable#| Variable Name | Variable Definition
 4|tMeanOfBodyAcceleration(Y-axis)|Mean of body acceleration at Y-Axis (Time Domain) – measured in standard gravity unit 'g'
 5|tMeanOfBodyAcceleration(Z-axis)	|Mean of body acceleration at Z-Axis (Time Domain) – measured in standard gravity unit 'g'
 6|tStandardDeviationOfBodyAcceleration(X-axis)|Standard Deviation of body acceleration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
+7|	tStandardDeviationOfBodyAcceleration(Y-axis)|	|Standard Deviation of body acceleration at Y-Axis (Time Domain) – measured in standard gravity unit 'g'
+8|	tStandardDeviationOfBodyAcceleration(Z-axis)|	|Standard Deviation of body acceleration at Z-Axis (Time Domain) – measured in standard gravity unit 'g'
 
