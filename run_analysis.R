@@ -2,7 +2,7 @@
 # File Name            :  run_analysis.R
 # Author               :  Keat Min Chong
 # Creation Date        :  12-20-2015
-# Date Last Updated    :  12-26-2015     
+# Date Last Updated    :  12-27-2015     
 # Detail Information   :  README.md 
 #
 # ============================================================================ #
