@@ -80,17 +80,17 @@ This dataset consists of a single space-delimited file represents observations c
 
 
 Version| Date | Comments
---- | --- | ---
+* --- * | --- | ---
 1	|”Subject”|                     	
-	|”Activity”|                    	
-	|“Mean of X-axis Body Accelaration (Time Domain)|
-	|“Mean of Y-axis Body Accelaration (Time Domain)”|	
-	|“Mean of Z-axis Body Accelaration (Time Domain)”|	
-	|“Standard Deviation of X-axis Body Accelaration (Time Domain)”|
-	|“Standard Deviation of Y-axis Body Accelaration (Time Domain)”|	
-	|“Standard Deviation of Z-axis Body Accelaration (Time Domain)”|	
-	|“Mean of X-axis Gravity Accelaration (Time Domain)”|	
-	|“Mean of Y-axis Gravity Accelaration (Time Domain)”|	
-	|“Mean of Z-axis Gravity Accelaration (Time Domain)”|	
+2	|”Activity”|                    	
+3	|“Mean of X-axis Body Accelaration (Time Domain)|
+4	|“Mean of Y-axis Body Accelaration (Time Domain)”|	
+5	|“Mean of Z-axis Body Accelaration (Time Domain)”|	
+6	|“Standard Deviation of X-axis Body Accelaration (Time Domain)”|
+7	|“Standard Deviation of Y-axis Body Accelaration (Time Domain)”|	
+8	|“Standard Deviation of Z-axis Body Accelaration (Time Domain)”|	
+9	|“Mean of X-axis Gravity Accelaration (Time Domain)”|	
+10	|“Mean of Y-axis Gravity Accelaration (Time Domain)”|	
+11	|“Mean of Z-axis Gravity Accelaration (Time Domain)”|	
 
 
