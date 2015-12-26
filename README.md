@@ -44,7 +44,6 @@ The script is single file script which containing the codes to carry out all the
 
 
 
-```R
 
 + **LOAD** needed libraries
 
@@ -84,8 +83,7 @@ The script is single file script which containing the codes to carry out all the
 # output final data frame into text file
 
 # End
-
-```
+`
  
 
 
