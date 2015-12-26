@@ -49,40 +49,31 @@ The script is single file script which containing the codes to carry out all the
 
 . READ raw data files into memory
 
-+ Get ready by constructing transitioning dataframes (building blocks)
+. CONSTRUCT temporary data sets (building blocks)
+
+. PREPROCESS Measurement data set follow requirement
+
+	. EXTRACTS variable labels from raw file
+
+	. REPLACE column names with valid labels
+
+	. SELECT only the measurements on mean and standard deviation
 
 
-# Preprocessing of building blocks
+. COMBINE building blocks to form first draft of data set
 
-	# Extract variable labels from raw file
+. REPLACE activities code with descriptive activity names
 
-	# Replace column names with valid labels
+. REMOVE objects deemed not needed anymore to free memory might help 
 
-	# Extracts only the measurements on mean and standard deviation
+. REARRANGE fields position of data set 
 
+. RELABEL the data set with descriptive variable names
 
-# Combine building to form first draft of tidy data
+. CREATE second data frame ( calculate average of each variable for each activity and each subject ) 
 
+. OUTPUT final data frame into text file
 
-# Replace activities code with descriptive activity names
-
-
-# Discard objects deemed not needed anymore to free memory might help 
-# when deal with very huge files on limited resource machine
-
-
-# rearrange data set before rename fields
-
-
-# Relabels the data set with descriptive variable names.
-
-
-# Average of each variable for each activity and each subject to create second data frame
-
-
-# output final data frame into text file
-
-# End
 
 ```
  
