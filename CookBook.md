@@ -37,7 +37,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Each record of the raw data from the experiments can be viewed comprising triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration,triaxial Angular velocity from the gyroscope, a 561-feature vector with time and frequency domain variables, its’ activity label and identifier of the subject who carried out the experiment. 
 
-Data from experiments are scattered into various files as showed below :
+Thought, data are scattered into various files as showed below :
 
 + ’features.txt': List of all features.
 + ’activity_labels.txt': Links the class labels with their activity name.
@@ -51,6 +51,18 @@ Data from experiments are scattered into various files as showed below :
 + ’train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. 
 
 # Data Transformation
+
+For the purpose of carrying out analysis stated in introduction and produce the final dataset,the below data transformation and cleaning steps are to be executed
+by the accompanying R script:
+ 
++ Merge the given training and the test data sets into a single data set for later processing.
++ Extract only the measurements on the mean and standard deviation for each measurement.
++ Replace the activities code in the data set to use descriptive activity names
++ Relabel the data set with descriptive variable names. 
++ Create a second,independent tidy data set to show the average value of each variable for each activity and each subject.
++ Output second data set to file
+
+
 
 
 # Dataset Description
