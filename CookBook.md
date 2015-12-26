@@ -78,8 +78,9 @@ This dataset consists of a single space-delimited file represents observations c
 
 # List Of Variables
 
-Variable#|Variable Name|Variable Definition
-_______	|_____________ |___________________	
+
+Version| Date | Comments
+--- | --- | ---
 1	|”Subject”|                     	
 	|”Activity”|                    	
 	|“Mean of X-axis Body Accelaration (Time Domain)|
