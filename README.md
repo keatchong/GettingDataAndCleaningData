@@ -1,12 +1,12 @@
 # Objective 
 
-Purpose of the script is to process raw data from various files as shown in **Input** and produce an output file via the below sub-steps:  
+Purpose of run_analysis.R is to process raw data from various files as shown in **Input** and produce an output file via the below sub-steps:  
 + Merges the training and the test sets to create single data set.
 + Extracts only the measurements on the mean and standard deviation for each measurement.
 + Rename the activities in the data set to use descriptive activity names
-+ labels the data set with descriptive variable names. 
++ Labels the data set with descriptive variable names. 
 + Creates a second,independent tidy data set with the average value of each variable for each activity and each subject.
-+ Output second dataset to tidy.txt
++ Output second dataset to tidy_data.txt
 
 # Input
 
@@ -33,13 +33,13 @@ Purpose of the script is to process raw data from various files as shown in **In
 # Execution Steps
 
 1. Unzip data package to your preferred directory ex: `<your_home_directory>`
-2. Copy **all files and folder from package** to be **directly under** your R working folder ( as per `getwd()` )
-3. Copy this script  to your working folder
+2. Copy **all files and folder from package** parent folder follow original layout and put them **directly under** your R working folder ( as per `getwd()` )
+3. Copy script run_analysis.R to your R working folder
 4. `source(“run_analysis.R”)` to run
 5. Check output tidy_data.txt at working directory (the file will be overwritten each time step 4 is run)
 
 # High Level View Of The Script
-The script is a straight forward single file script which containing the codes to carry out all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, It would be beneficial to have the high level structure in mind.
+The script is single file script which containing the codes to carry out all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, it would be beneficial to have the high level structure in mind.
 
 
 
@@ -85,6 +85,7 @@ The script is a straight forward single file script which containing the codes t
 # output final data frame into text file
 
 # End
+
 ```
  
 
