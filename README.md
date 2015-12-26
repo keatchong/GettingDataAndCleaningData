@@ -70,9 +70,9 @@ The script is single file script which containing the codes to carry out all the
 
 . RELABEL the data set with descriptive variable names
 
-. CREATE second data frame ( calculate average of each variable for each activity and each subject ) 
+. CREATE second data set ( calculate average of each variable for each activity and each subject ) 
 
-. OUTPUT final data frame into text file
+. OUTPUT second data set into text file
 
 
 ```
