@@ -78,8 +78,9 @@ This dataset consists of a single space-delimited file represents observations c
 
 # List Of Variables
 
+The following variables are included in the text file. 
 
-Version| Date | Comments
+Variable#| Variable Name | Variable Definition
 --- | --- | ---
 1	|”Subject”|                     	
 2	|”Activity”|                    	
