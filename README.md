@@ -5,7 +5,7 @@ Purpose of run_analysis.R is to process raw data from various files as shown in 
 + Extract only the measurements on the mean and standard deviation for each measurement.
 + Replace the activities code in the data set to use descriptive activity names
 + Relabel the data set with descriptive variable names. 
-+ Create a second,independent tidy data set to show the average value of each variable for each activity and each subject.
++ Create a second, independent tidy data set to show the average value of each variable for each activity and each subject.
 + Output second dataset to file
 
 # Input
