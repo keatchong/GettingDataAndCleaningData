@@ -82,12 +82,72 @@ The following variables are included in the text file.
 
 Variable#| Variable Name | Variable Definition
 --- | --- | ---
-1|Subject|This is the ID to identify the person who conduct the experiments
-2|Activity|Activity performed by subject
-3|tMeanOfBodyAcceleration(X-axis)|Mean of body acceleration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
-4|tMeanOfBodyAcceleration(Y-axis)|Mean of body acceleration at Y-Axis (Time Domain) – measured in standard gravity unit 'g'
-5|tMeanOfBodyAcceleration(Z-axis)	|Mean of body acceleration at Z-Axis (Time Domain) – measured in standard gravity unit 'g'
-6|tStandardDeviationOfBodyAcceleration(X-axis)|Standard Deviation of body acceleration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
+1|	Subject|	This is the ID to identify the person who conduct the experiments
+2|	Activity|	Activity performed by subject
+3|	tMeanOfBodyAcceleration(X-axis)|	Mean of body acceleration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
+4|	tMeanOfBodyAcceleration(Y-axis)|	Mean of body acceleration at Y-Axis (Time Domain) – measured in standard gravity unit 'g'
+5|	tMeanOfBodyAcceleration(Z-axis)|	Mean of body acceleration at Z-Axis (Time Domain) – measured in standard gravity unit 'g'
+6|	tStandardDeviationOfBodyAcceleration(X-axis)|	Standard Deviation of body acceleration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
 7|	tStandardDeviationOfBodyAcceleration(Y-axis)|	Standard Deviation of body acceleration at Y-Axis (Time Domain) – measured in standard gravity unit 'g'
 8|	tStandardDeviationOfBodyAcceleration(Z-axis)|	Standard Deviation of body acceleration at Z-Axis (Time Domain) – measured in standard gravity unit 'g'
+9|	tMeanOfGravityAcceleration(X-axis)|	Mean of gravity acceleration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
+10|	tMeanOfGravityAcceleration(Y-axis)|	Mean of gravity acceleration at Y-Axis (Time Domain) – measured in standard gravity unit 'g'
+11|	tMeanOfGravityAcceleration(Z-axis)|	Mean of gravity acceleration at Z-Axis (Time Domain) – measured in standard gravity unit 'g'
+12|	tStandardDeviationOfGravityAcceleration(X-axis)|	Standard Deviation of gravity accelaration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
+13|	tStandardDeviationOfGravityAcceleration(Y-axis)|	Standard Deviation of gravity acceleration at Y-Axis (Time Domain) – measured in standard gravity unit 'g'
+14|	tStandardDeviationOfGravityAcceleration(Z-axis)|	Standard Deviation of gravity acceleration at Z-Axis (Time Domain) – measured in standard gravity unit 'g'
+15|	tMeanOfChangeRateOfBodyAcceleratio(X-axis)|	Mean of change rate of body acceleration at X-Axis (Time Domain) – measured in unit g/s
+16|	tMeanOfChangeRateOfBodyAcceleratio(Y-axis)|	Mean of change rate of body acceleration at Y-Axis (Time Domain) – measured in unit g/s
+17|	tMeanOfChangeRateOfBodyAcceleratio(Z-axis)|	Mean of change rate of body acceleration at Z-Axis (Time Domain) – measured in unit g/s
+18|	tStandardDeviationOfChangeRateOfBodyAcceleratio(X-axis)|	Standard Deviation of change rate of body acceleration at X-Axis (Time Domain) – measured in unit g/s
+19|	tStandardDeviationOfChangeRateOfBodyAcceleratio(Y-axis)|	Standard Deviation of change rate of body acceleration at Y-Axis (Time Domain) – measured in unit g/s
+20|	tStandardDeviationOfChangeRateOfBodyAcceleratio(Z-axis)|	Standard Deviation of change rate of body acceleration at Z-Axis (Time Domain) – measured in unit g/s
+21|	tMeanOfAngularVelocity(X-axis)|	Mean of angular velocity at X-axis (Time Domain) measured in unit rad/s
+22|	tMeanOfAngularVelocity(Y-axis)|	Mean of angular velocity at Y-axis (Time Domain) measured in unit rad/s
+23|	tMeanOfAngularVelocity(Z-axis)|	Mean of angular velocity at Z-axis (Time Domain) measured in unit rad/s
+24|	tStandardDeviationOfAngularVelocity(X-axis)|	Standard Deviation of angular velocity at X-axis (Time Domain) measured in unit rad/s
+25|	tStandardDeviationOfAngularVelocity(Y-axis)|	Standard Deviation of angular velocity at Y-axis (Time Domain) measured in unit rad/s
+26|	tStandardDeviationOfAngularVelocity(Z-axis)|	Standard Deviation of angular velocity at Z-axis (Time Domain) measured in unit rad/s
+27|	tMeanOfChangeRateOfAngularAcceleration(X-axis)|	Mean of change rate of angular acceleration at X-Axis (Time Domain) – measured in unit rad/s^3
+28|	tMeanOfChangeRateOfAngularAcceleration(Y-axis)|	Mean of change rate of angular acceleration at Y-Axis (Time Domain) – measured in unit rad/s^3
+29|	tMeanOfChangeRateOfAngularAcceleration(Z-axis)|	Mean of change rate of angular acceleration at Z-Axis (Time Domain) – measured in unit rad/s^3
+30|	tStandardDeviationOfChangeRateOfAngularAcceleration(X-axis)|	Standard Deviation of change rate of angular acceleration at X-Axis (Time Domain) – measured in unit rad/s^3
+31|	tStandardDeviationOfChangeRateOfAngularAcceleration(Y-axis)|	Standard Deviation of change rate of angular acceleration at Y-Axis (Time Domain) – measured in unit rad/s^3
+32|	tStandardDeviationOfChangeRateOfAngularAcceleration(Z-axis)|	Standard Deviation of change rate of angular acceleration at Z-Axis (Time Domain) – measured in unit rad/s^3
+33|	tMeanOfMagnitudeOfBodyAcceleration|	Mean of magnitude of body acceleration (Time Domain) – measured in in standard gravity unit 'g'
+34|	tStandardDeviationOfMagnitudeOfBodyAcceleration|	Standard Deviation of magnitude of body acceleration (Time Domain) – measured in in standard gravity unit 'g'
+35|	tMeanOfMagnitudeOfGravityAcceleration|	Mean of magnitude of gravity acceleration  (Time Domain) – measured in in standard gravity unit 'g'
+36|	tStandardDeviationOfMagnitudeOfGravityAcceleration|	Standard Deviation of magnitude of gravity acceleration  (Time Domain) – measured in in standard gravity unit 'g'
+37|	tMeanOfMagnitudeOfChangeRateOfBodyAcceleration|	Mean of magnitude of change rate of body acceleration  (Time Domain) – measured in unit g/s
+38|	tStandardDeviationOfMagnitudeOfChangeRateOfBodyAcceleration|	Standard Deviation of magnitude of change rate of body acceleration  (Time Domain) – measured in unit g/s
+39|	tMeanOfMagnitudeOfAngularVelocity|	Mean of magnitude of angular velocity  (Time Domain) - measured in unit rad/s
+40|	tStandardDeviationOfMagnitudeOfAngularVelocity|	Standard Deviation of magnitude of angular velocity (Time Domain) – measured in unit rad/s
+41|	tMeanOfMagnitudeOfChangeRateOfAngularAcceleration|	Mean of magnitude of change rate of angular acceleration (Time Domain) – measured in unit rad/s^3
+42|	tStandardDeviationOfMagnitudeOfChangeRateOfAngularAcceleration|	Standard Deviation of magnitude of change rate of angular acceleration (Time Domain) – measured in unit rad/s^3
+43|	fMeanOfBodyAcceleration(X-axis)|	Mean of body acceleration at X-Axis (Frequency Domain) – measured in standard gravity unit 'g'
+44|	fMeanOfBodyAcceleration(Y-axis)|	Mean of body acceleration at Y-Axis (Frequency Domain) – measured in standard gravity unit 'g'
+45|	fMeanOfBodyAcceleration(Z-axis)|	Mean of body acceleration at Z-Axis (Frequency Domain) – measured in standard gravity unit 'g'
+46|	fStandardDeviationOfBodyAcceleration(X-axis)|	Standard Deviation of body acceleration at X-Axis (Frequency Domain) – measured in standard gravity unit 'g'
+47|	fStandardDeviationOfBodyAcceleration(Y-axis)|	Standard Deviation of body acceleration at Y-Axis (Frequency  Domain) – measured in standard gravity unit 'g'
+48|	fStandardDeviationOfBodyAcceleration(Z-axis)|	Standard Deviation of body acceleration at Z-Axis (Frequency Domain) – measured in standard gravity unit 'g'
+49|	fMeanOfChangeRateOfBodyAcceleratio(X-axis)|	Mean of change rate of body acceleration at X-Axis (Frequency Domain) – measured in unit g/s
+50|	fMeanOfChangeRateOfBodyAcceleratio(Y-axis)|	Mean of change rate of body acceleration at Y-Axis (Frequency Domain) – measured in unit g/s
+51|	fMeanOfChangeRateOfBodyAcceleratio(Z-axis)|	Mean of change rate of body acceleration at Z-Axis (Frequnecy Domain) – measured in unit g/s
+52|	fStandardDeviationOfChangeRateOfBodyAcceleratio(X-axis)|	Standard Deviation of change rate of body acceleration at X-Axis (Frequency Domain) – measured in unit g/s
+53|	fStandardDeviationOfChangeRateOfBodyAcceleratio(Y-axis)|	Standard Deviation of change rate of body acceleration at Y-Axis (Frequency Domain) – measured in unit g/s
+54|	fStandardDeviationOfChangeRateOfBodyAcceleratio(Z-axis)|	Standard Deviation of change rate of body acceleration at Z-Axis (Frequency Domain) – measured in unit g/s
+55|	fMeanOfAngularVelocity(X-axis)|	Mean of angular velocity at X-axis (Frequency Domain) measured in unit rad/s
+56|	fMeanOfAngularVelocity(Y-axis)|	Mean of angular velocity at Y-axis (Frequency Domain) measured in unit rad/s
+57|	fMeanOfAngularVelocity(Z-axis)|	Mean of angular velocity at Z-axis (Frequency Domain) measured in unit rad/s
+58|	fStandardDeviationOfAngularVelocity(X-axis)|	Standard Deviation of angular velocity at X-axis (Frequency Domain) measured in unit rad/s
+59|	fStandardDeviationOfAngularVelocity(Y-axis)|	Standard Deviation of angular velocity at Y-axis (Frequency Domain)measured in unit rad/s
+60|	fStandardDeviationOfAngularVelocity(Z-axis)|	Standard Deviation of angular velocity at Z-axis (Frequency Domain) measured in unit rad/s
+61|	fMeanOfMagnitudeOfBodyAcceleration|	Mean of magnitude of body acceleration (Frequency Domain) – measured in in standard gravity unit 'g'
+62|	fStandardDeviationOfMagnitudeOfBodyAcceleration|	Standard Deviation of magnitude of of body acceleration (Frequency Domain) – measured in in standard gravity unit 'g'
+63|	fMeanOfMagnitudeOfChangeRateOfBodyAcceleration|	Mean of magnitude of change rate of body acceleration  (Frequency Domain) – measured in unit g/s
+64|	fStandardDeviationOfMagnitudeOfChangeRateOfBodyAcceleration|	Standard Deviation of magnitude of change rate of body acceleration  (Frequency Domain) – measured in unit g/s
+65|	fMeanOfMagnitudeOfAngularVelocity|	Mean of magnitude of angular velocity  (Frequency Domain) - measured in unit rad/s
+66|	fStandardDeviationOfMagnitudeOfAngularVelocity|	Standard Deviation of magnitude of angular velocity (Frequency Domain) – measured in unit rad/s
+67|	fMeanOfMagnitudeOfChangeRateOfAngularAcceleration|	Mean of magnitude of change rate of angular acceleration (Frequency Domain) – measured in unit rad/s^3
+68|	fStandardDeviationOfMagnitudeOfChangeRateOfAngularAcceleration|	Standard Deviation of magnitude of change rate of angular acceleration (Frequency Domain) – measured in unit rad/s^3
 
