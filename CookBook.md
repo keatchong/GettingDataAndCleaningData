@@ -4,12 +4,10 @@ December 25,2015
 
 # Revision History
 
-| Version        | Date         | Comments  |
-|:——————: |:-------------:| :——:|
-| 1.0     | 12/25/2015 | First Version Of Document |
-|       |       |    |
-|  |       |    |
-
+Version| Date | Comments
+--- | --- | ---
+1.0 | 25/12/2015 | First Version Of Document
+ | | |
 
 
 # Introduction
