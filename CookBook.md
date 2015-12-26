@@ -4,11 +4,11 @@ December 25,2015
 
 # Revision History
 
-| Tables        | Are           | Cool  |
+| Version        | Date         | Commets  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| 1.0     | 12/25/2015 | First Version Of Document |
+|       |       |    |
+|  |       |    |
 
 
 
