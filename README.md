@@ -39,7 +39,7 @@ Purpose of run_analysis.R is to process raw data from various files as shown in 
 5. Check output tidy_data.txt at working directory (the file will be overwritten each time step 4 is run)
 
 # High Level View Of The Script
-The script is single file script which containing the codes to carry out all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, it would be beneficial to have the high level structure in mind
+The script is single file script which containing the codes to carry out all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, it would be beneficial to have the high level pseudocode in mind
 
 
 
