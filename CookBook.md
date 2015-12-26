@@ -57,11 +57,11 @@ by the accompanying R script :
  
 + features.txt, activity_labels.txt, subject_test.txt, subject_train.txt, X_test.txt, X_train.txt, y_test.txt, y_train.txt are read into R enrionment. (Other files are not required for the purpose of this analysis)
 + Merge the given training and the test data sets into a single data set for later processing.
-—* Extract only the measurements on the mean and standard deviation for each measurement.
-++ Replace the activities code in the data set to use descriptive activity names
-++ Relabel the data set with descriptive variable names. 
-++ Create a second,independent tidy data set to show the average value of each variable for each activity and each subject.
-++ Output second data set to file
+    Extract only the measurements on the mean and standard deviation for each measurement.
+    Replace the activities code in the data set to use descriptive activity names
+    Relabel the data set with descriptive variable names. 
++ Create a second,independent tidy data set to show the average value of each variable for each activity and each subject.
++ Output second data set to file
 
 
 # Dataset Description
