@@ -137,10 +137,11 @@ colnames(tidy.data) <- c("Subject", "Activity",
 # Average of each variable for each activity and each subject to create 
 # second data frame 
 group <- group_by(tidy.data, Subject, Activity)
-tidy.data.summary <- summarise_each(group, funs(mean))
+
+# final tidy data
+tidy.data <- summarise_each(group, funs(mean))
+
 remove(group) # discard group object
 
-# output final data frame into text file
-write.table(tidy.data.summary, file="tidy_data.txt", row.names=FALSE)
 
 
