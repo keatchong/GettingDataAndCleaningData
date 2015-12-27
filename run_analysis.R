@@ -137,9 +137,8 @@ colnames(tidy.data) <- c("Subject", "Activity",
 # Average of each variable for each activity and each subject to create 
 # second data frame 
 group <- group_by(tidy.data, Subject, Activity)
-
 # final data set
-tidy.data <- summarise_each(group, funs(mean))
+tidy.data.summary <- summarise_each(group, funs(mean))
 
 remove(group) # discard group object
 
