@@ -52,10 +52,10 @@ Thought, data are scattered into various files as showed below :
 
 # Data Transformation
 
-For the purpose of carrying out analysis stated in introduction and produce the final dataset, the below data transformation and cleaning steps are to be executed
-by the accompanying R script :
+For the purpose of carrying out analysis stated in introduction and produce the final dataset, the below data transformation and cleaning steps are to be carried out
+by the accompanying R script each time it is executed :
  
-* features.txt, activity_labels.txt, subject_test.txt, subject_train.txt, X_test.txt, X_train.txt, y_test.txt, y_train.txt are read into R enrionment. (Other files are not required for the purpose of this analysis)
+* features.txt, activity_labels.txt, subject_test.txt, subject_train.txt, X_test.txt, X_train.txt, y_test.txt, y_train.txt are read into R environment. (Other files are not required for the purpose of this analysis)
 * Constructing final dataset building blocks
 	* row binding subject_test and subject train data as block 1
 	* row binding y_test and y_train as block 2
@@ -93,7 +93,7 @@ Variable#| Variable Name | Variable Definition
 9|	tMeanOfGravityAcceleration(X-axis)|	Mean of gravity acceleration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
 10|	tMeanOfGravityAcceleration(Y-axis)|	Mean of gravity acceleration at Y-Axis (Time Domain) – measured in standard gravity unit 'g'
 11|	tMeanOfGravityAcceleration(Z-axis)|	Mean of gravity acceleration at Z-Axis (Time Domain) – measured in standard gravity unit 'g'
-12|	tStandardDeviationOfGravityAcceleration(X-axis)|	Standard Deviation of gravity accelaration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
+12|	tStandardDeviationOfGravityAcceleration(X-axis)|	Standard Deviation of gravity acceleration at X-Axis (Time Domain) – measured in standard gravity unit 'g'
 13|	tStandardDeviationOfGravityAcceleration(Y-axis)|	Standard Deviation of gravity acceleration at Y-Axis (Time Domain) – measured in standard gravity unit 'g'
 14|	tStandardDeviationOfGravityAcceleration(Z-axis)|	Standard Deviation of gravity acceleration at Z-Axis (Time Domain) – measured in standard gravity unit 'g'
 15|	tMeanOfChangeRateOfBodyAcceleratio(X-axis)|	Mean of change rate of body acceleration at X-Axis (Time Domain) – measured in unit g/s
@@ -132,7 +132,7 @@ Variable#| Variable Name | Variable Definition
 48|	fStandardDeviationOfBodyAcceleration(Z-axis)|	Standard Deviation of body acceleration at Z-Axis (Frequency Domain) – measured in standard gravity unit 'g'
 49|	fMeanOfChangeRateOfBodyAcceleratio(X-axis)|	Mean of change rate of body acceleration at X-Axis (Frequency Domain) – measured in unit g/s
 50|	fMeanOfChangeRateOfBodyAcceleratio(Y-axis)|	Mean of change rate of body acceleration at Y-Axis (Frequency Domain) – measured in unit g/s
-51|	fMeanOfChangeRateOfBodyAcceleratio(Z-axis)|	Mean of change rate of body acceleration at Z-Axis (Frequnecy Domain) – measured in unit g/s
+51|	fMeanOfChangeRateOfBodyAcceleratio(Z-axis)|	Mean of change rate of body acceleration at Z-Axis (Frequency Domain) – measured in unit g/s
 52|	fStandardDeviationOfChangeRateOfBodyAcceleratio(X-axis)|	Standard Deviation of change rate of body acceleration at X-Axis (Frequency Domain) – measured in unit g/s
 53|	fStandardDeviationOfChangeRateOfBodyAcceleratio(Y-axis)|	Standard Deviation of change rate of body acceleration at Y-Axis (Frequency Domain) – measured in unit g/s
 54|	fStandardDeviationOfChangeRateOfBodyAcceleratio(Z-axis)|	Standard Deviation of change rate of body acceleration at Z-Axis (Frequency Domain) – measured in unit g/s
