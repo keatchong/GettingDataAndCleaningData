@@ -138,10 +138,11 @@ colnames(tidy.data) <- c("Subject", "Activity",
 # second data frame 
 group <- group_by(tidy.data, Subject, Activity)
 
-# final tidy data
+# final data set
 tidy.data <- summarise_each(group, funs(mean))
 
 remove(group) # discard group object
+
 
 
 
