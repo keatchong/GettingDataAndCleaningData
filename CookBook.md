@@ -55,12 +55,12 @@ Thought, data are scattered into various files as showed below :
 For the purpose of carrying out analysis stated in introduction and produce the final dataset, the below data transformation and cleaning steps are to be carried out
 by the accompanying R script each time it is executed :
  
-* features.txt, activity_labels.txt, subject_test.txt, subject_train.txt, X_test.txt, X_train.txt, y_test.txt, y_train.txt are read into R environment. (Other files are not required for the purpose of this analysis)
+* Read features.txt, activity_labels.txt, subject_test.txt, subject_train.txt, X_test.txt, X_train.txt, y_test.txt, y_train.txt into R environment. (Other files are not required for the purpose of this analysis)
 * Constructing final dataset building blocks
 	* row binding subject_test and subject train data as block 1
 	* row binding y_test and y_train as block 2
-	* row binding x_test and X_train as block 3
-* Replacing generic labels for block 3 using variable labels extract from features
+	* row binding X_test and X_train as block 3
+* Replacing generic labels of block 3 using variable labels extract from features
 * Select from block 3, only the measurements on mean and standard deviation (based on field name patterns mean() and std())
 * Rename labels of block 1, block 2 with “Subject” and “Activity” 
 * Combining block 1, block 2 and block 3 to form first draft of the data set
@@ -70,7 +70,6 @@ by the accompanying R script each time it is executed :
 * Relabel the data set with descriptive variable names. 
 * Group the data set with Subject and Activity fields  
 * Summarise data set by apply mean function on mean and standard deviation measurements  
-* Output second data set to file tidy_data.txt
 
 # Dataset Description
 This dataset consists of a single space-delimited file represents observations consisting of study participants, activities performed during the study, and a computed average for each of the 66 measurement variables.
