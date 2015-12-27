@@ -71,7 +71,7 @@ The script is single file script which containing the codes to carry out all the
 
 . RELABEL the data set with descriptive variable names
 
-. CREATE second data set ( calculate average of each variable for each activity and each subject ) 
+. CREATE second data set ( calculate average of each variable for each subject and each activity ) 
 
 . REMOVE objects deemed not needed anymore to free memory
 
