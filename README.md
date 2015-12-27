@@ -1,12 +1,12 @@
 # Objective 
 
-Purpose of run_analysis.R is to process raw data from various files as shown in **Input** and produce an output file via the below sub-steps:  
+Purpose of run_analysis.R is to process raw data from various files as shown in **Input** and produce a new independent data frame via the below sub-steps:  
 + Merge the given training and the test data sets into a single dataset for later processing.
 + Extract only the measurements on the mean and standard deviation for each measurement.
 + Replace the activities code in the data set to use descriptive activity names
 + Relabel the data set with descriptive variable names. 
 + Create a second, independent tidy data set to show the average value of each variable for each activity and each subject.
-+ Output second dataset to file
+
 
 # Input
 
@@ -21,7 +21,8 @@ Purpose of run_analysis.R is to process raw data from various files as shown in 
 
 # Output
 
-1. tidy_data.txt
+1. tidy.data.summary data frame 
+  
 
 # Development/Testing Environment
 
@@ -36,7 +37,7 @@ Purpose of run_analysis.R is to process raw data from various files as shown in 
 2. Copy **all files and folder from package** parent folder follow original layout and put them **directly under** your R working folder ( as per `getwd()` )
 3. Copy the script `run_analysis.R` to your R working folder
 4. `source(“run_analysis.R”)` to run
-5. Check output tidy_data.txt at working directory (the file will be overwritten each time step 4 is run)
+5. Run command write.table(tidy.data.summary, file="tidy_data.txt", row.names=FALSE) if you wish to generate text file.
 
 # High Level View Of The Script
 The script is single file script which containing the codes to carry out all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, it would be beneficial to have the high level pseudocode in mind
