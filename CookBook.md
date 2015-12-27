@@ -67,7 +67,7 @@ by the accompanying R script each time it is executed :
 * Join the data set with activity_labels to obtain the description of activities
 * Remove activity field from data set
 * Re-arrange dataset fields follow sequence Subject, Activity and 66 mean and standard deviation measurements 
-* Relabel the data set with descriptive variable names. 
+* Relabel the data set with descriptive variable names
 * Group the data set with Subject and Activity fields  
 * Summarise data set by apply mean function on mean and standard deviation measurements  
 
