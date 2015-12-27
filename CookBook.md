@@ -10,7 +10,7 @@ Version| Date | Comments
 
 # Introduction
 
-The following data dictionary describes average of mean and standard deviation of acceleration and angular movements variables pertained to six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) for each volunteer.
+The following data dictionary describes average of mean and standard deviation of acceleration and angular movements variables pertained to six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) for each activity,each volunteer.
 
 In addition to this introduction, the data dictionary includes the following four sections.
 
@@ -19,11 +19,11 @@ which describes updates to the document.
 
 + Study Overview - A brief description how the experiments being carried out and how was data being collected.  
 
-+ Data Transformation – A list of related subject areas and specific documents of value to users of the data set described in this data dictionary.
++ Data Transformation – A list of steps to clean up and transform raw data to final tidy data.
 
 + Dataset Description – This section describes what data is available and how the data are stored.
 
-+ List of Variables – A list of the entries (variables) in the dictionary which can be used as a table of contents to locate specific variables in the document.
++ List of Variables – A list of the entries (variables) in the dictionary which can be used as a table of contents to locate specific variables in the output text.
 
 
 # Study Overview
