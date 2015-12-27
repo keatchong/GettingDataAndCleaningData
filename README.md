@@ -37,7 +37,7 @@ Purpose of run_analysis.R is to process raw data from various files as shown in 
 2. Copy **all files and folder from package parent folder**  follow original layout and put them **directly under** your R working folder ( as per `getwd()` )
 3. Copy the script `run_analysis.R` to your R working folder
 4. `source(“run_analysis.R”)` to run
-5. Run command write.table(tidy.data.summary, file="tidy_data.txt", row.names=FALSE) if you wish to dump data to text file.
+5. Run command write.table(tidy.data.summary, file="tidy_data.txt", row.names=FALSE) if you wish to dump data to text file
 
 # High Level View Of The Script
 The script is single file script which containing the codes to carry out all the needed steps with no other embedded functions. While the script is commented appropriately at right place to aid understanding, it would be beneficial to have the high level pseudocode in mind
